@@ -1,4 +1,4 @@
-# mini-projects
+# mini-projects Playground 🚀
 
 🛠️ Why just learn when you can build? Dive into the heart of each tech stack or framework directory to find a series of mini-projects. 
 
