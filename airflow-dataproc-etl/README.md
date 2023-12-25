@@ -88,3 +88,13 @@ airflow-dataproc-etl/
    |
 
 ```
+
+- **dags/**: Contains the Airflow DAG definition for the ETL pipeline.
+- **scripts/**: Houses the PySpark job script for data processing.
+- **input_data/**: Contains the input_data used to process
+
+## Contributions and Feedback
+
+Contributions, issues, and feedback are welcome! Feel free to open issues, submit pull requests, or share your experiences with this mini project. Let's learn and build together.
+
+Happy ETL-ing in the cloud! 🌐☁️
