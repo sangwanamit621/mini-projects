@@ -16,7 +16,7 @@ Why stop at learning when you can build? Dive into the heart of each tech stack 
 
 Navigate through the repository using our Project Directory. Each directory hosts mini-projects that showcase the capabilities of a specific tech stack or framework. Pick a directory, explore the projects, and witness the magic of applied knowledge.
 
-| Tech Stack | Mini-Projects |
+| Directory | Mini-Projects |
 | --- | --- |
 | 🚀 airflow-dataproc-etl |	Automated pipeline for data processing and analysis using Google Cloud services like Dataproc for Spark and Hive, GCS for storage and Google Composer for Airflow |
 | 🌐 React	| Interactive web applications and UI magic |
