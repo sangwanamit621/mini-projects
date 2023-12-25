@@ -66,7 +66,7 @@ This mini project demonstrates a robust ETL pipeline with the following key comp
 
 ### Running the Pipeline
 
-1. Start the Airflow scheduler and web server: `airflow webserver -p 8080` and `airflow scheduler`.
+1. If running the self managed version, then start the Airflow scheduler and web server: `airflow webserver -p 8080` and `airflow scheduler`. 
 2. Access the Airflow UI at `http://localhost:8080`.
 3. Trigger the ETL pipeline DAG.
 
