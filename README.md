@@ -18,7 +18,7 @@ Navigate through the repository using our Project Directory. Each directory host
 
 | Tech Stack | Mini-Projects |
 | --- | --- |
-| 🚀 Spark |	Spark-based data processing and analysis |
+| 🚀 airflow-dataproc-etl |	Automated pipeline for data processing and analysis using Google Cloud services like Dataproc for Spark and Hive, GCS for storage and Google Composer for Airflow |
 | 🌐 React	| Interactive web applications and UI magic |
 |🤖 TensorFlow|	Deep learning projects for AI enthusiasts|
 |⚙️ Flask	|Building web applications with Flask|
