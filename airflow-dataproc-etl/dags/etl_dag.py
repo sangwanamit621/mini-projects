@@ -50,7 +50,7 @@ pyspark_job_arguments = { "spark_main_file":spark_main_file}
 
 default_args = {
     "owner":"amitS",
-    "depends_on_past":False,
+    "depends_on_past":True,
     "email_on_failure":True,
     "emails":["sangwanamit@gmail.com"],
     "email_on_retry":False,
@@ -76,7 +76,7 @@ with DAG("assignment1", default_args=default_args):
         bucket = "project-airflow",
         prefix = "input_data/books/books*.csv",
         poke_interval=300,
-        timeout=60*60*12
+        timeout=60*60*2
     )
 
     check_orders_files = GCSObjectsWithPrefixExistenceSensor(
@@ -84,7 +84,7 @@ with DAG("assignment1", default_args=default_args):
         bucket = "project-airflow",
         prefix = "input_data/orders/orders*.csv",
         poke_interval=300,
-        timeout=60*60*12
+        timeout=60*60*2
     )
 
     submit_spark_job = dataproc.DataprocSubmitPySparkJobOperator(
