@@ -19,7 +19,7 @@ Navigate through the repository using our Project Directory. Each directory host
 | Directory | Mini-Projects |
 | --- | --- |
 | 🚀 airflow-dataproc-etl |	Automated pipeline for data processing and analysis using Google Cloud services like Dataproc for Spark and Hive, GCS for storage and Google Composer for Airflow |
-| 🌐 airflow-hive-etl	| Automated pipeline for data updation using Google Cloud services like Dataproc and Hive, GCS for storage and Google Composer for Airflow |
+
 
 ### 🤝 Collaboration Corner
 Excited to contribute or collaborate? Your ideas and feedback are invaluable. Feel free to open issues, submit pull requests, or share your own mini-projects. Let's code and create together, fostering a collaborative learning environment.
